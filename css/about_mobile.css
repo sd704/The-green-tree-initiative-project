@@ -20,7 +20,7 @@ body {
 .heading1 p {
     width: 126px;
     text-align: left;
-    font: normal normal bold 18px/22px Helvetica;
+    font: normal normal bold 1.125rem Helvetica;
     letter-spacing: 0px;
     color: #354463;
     opacity: 1;
@@ -41,7 +41,7 @@ body {
     margin-bottom: 5px;
 
     text-align: left;
-    font: normal normal 300 14px/20px Helvetica;
+    font: normal normal 300 0.875rem Helvetica;
     letter-spacing: -0.14px;
     color: #354463;
     opacity: 1;
@@ -62,7 +62,7 @@ body {
     border-radius: 100px;
     opacity: 1;
 
-    font: normal normal bold 18px/22px Helvetica;
+    font: normal normal bold 1.125rem Helvetica;
     letter-spacing: 0px;
     color: #354463;
 
@@ -84,7 +84,7 @@ body {
 
     width: 180px;
     text-align: left;
-    font: normal normal normal 44px/46px floodstd;
+    font: normal normal normal 2.75rem floodstd;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
@@ -111,7 +111,7 @@ body {
 
 
     text-align: center;
-    font: normal normal normal 14px/17px Helvetica;
+    font: normal normal normal 0.875rem Helvetica;
     letter-spacing: 0.56px;
     color: #FFFFFF;
     opacity: 1;
@@ -121,7 +121,7 @@ body {
     margin: 0;
     
     text-align: center;
-    font: normal normal bold 22px/28px Helvetica;
+    font: normal normal bold 1.375rem Helvetica;
     letter-spacing: 0px;
     color: #354463;
     opacity: 1;
@@ -138,7 +138,7 @@ body {
     background-color: #FFFFFF;
     width: fit-content;
     text-align: center;
-    font: normal normal normal 14px/17px Helvetica;
+    font: normal normal normal 0.875rem Helvetica;
     letter-spacing: 0.56px;
     color: #354463;
     opacity: 1;
@@ -147,7 +147,7 @@ body {
 .box3 p {
     margin: 32px 0 32px 0;
     text-align: center;
-    font: normal normal bold 22px/28px Helvetica;
+    font: normal normal bold 1.375rem Helvetica;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
@@ -163,7 +163,7 @@ body {
 .grid1 h3 {
     margin: 0;
     text-align: left;
-    font: normal normal bold 16px/20px Helvetica;
+    font: normal normal bold 1rem Helvetica;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
@@ -173,7 +173,7 @@ body {
     margin: 10px 0 0 0;
     width: 140px;
     text-align: left;
-    font: normal normal 300 14px/20px Helvetica;
+    font: normal normal 300 0.875rem Helvetica;
     letter-spacing: -0.14px;
     color: #FFFFFF;
     opacity: 1;
@@ -189,7 +189,7 @@ body {
     margin: 0 auto;
     padding: 10px;
     text-align: center;
-    font: normal normal normal 14px/17px Helvetica;
+    font: normal normal normal 0.875rem Helvetica;
     letter-spacing: 0.56px;
     color: #FFFFFF;
     opacity: 1;
@@ -198,7 +198,7 @@ body {
 .box4 h2 {
     text-align: center;
     margin: 32px 0 32px 0;
-    font: normal normal bold 22px/28px Helvetica;
+    font: normal normal bold 1.375rem Helvetica;
     letter-spacing: 0px;
     color: #354463;
     opacity: 1;
@@ -207,7 +207,7 @@ body {
 .box4 p {
     margin: 0 0 32px 0;
     text-align: center;
-    font: normal normal 300 14px/20px Helvetica;
+    font: normal normal 300 0.875rem Helvetica;
     letter-spacing: -0.14px;
     color: #354463;
     opacity: 1;
@@ -234,7 +234,7 @@ body {
     padding: 5px 10px 10px 10px;
 
     text-align: left;
-    font: normal normal 300 14px/20px Helvetica;
+    font: normal normal 300 0.875rem Helvetica;
     letter-spacing: -0.14px;
     color: #FFFFFF;
     opacity: 1;
@@ -249,7 +249,7 @@ body {
 
 .box5 h3 {
     text-align: center;
-    font: normal normal normal 14px/17px Helvetica;
+    font: normal normal normal 0.875rem Helvetica;
     letter-spacing: 0.56px;
     color: #354463;
     opacity: 1;
@@ -263,7 +263,7 @@ body {
 .box5 h2 {
     margin: 32px 0 0 0;
     text-align: center;
-    font: normal normal bold 22px/28px Helvetica;
+    font: normal normal bold 1.375rem Helvetica;
     letter-spacing: 0px;
     color: #354463;
     opacity: 1;
@@ -272,7 +272,7 @@ body {
 .box5 h1 {
     margin: 32px 0 0 0;
     text-align: center;
-    font: normal normal normal 44px/46px floodstd;
+    font: normal normal normal 2.75rem floodstd;
     letter-spacing: 0px;
     color: #354463;
     opacity: 1;
@@ -282,7 +282,7 @@ body {
     text-align: center;
     width: 160px;
     margin: 0 auto;
-    font: normal normal bold 16px/20px Helvetica;
+    font: normal normal bold 1rem Helvetica;
     letter-spacing: 0px;
     color: #354463;
     opacity: 1;
@@ -296,7 +296,7 @@ body {
 .box6 h2 {
     margin: 32px 0 32px 0;
     text-align: center;
-    font: normal normal normal 44px/46px floodstd;
+    font: normal normal normal 2.75rem floodstd;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
@@ -304,7 +304,7 @@ body {
 
 .box6 h3 {
     text-align: center;
-    font: normal normal normal 14px/17px Helvetica;
+    font: normal normal normal 0.875rem Helvetica;
     letter-spacing: 0.56px;
     color: #354463;
     opacity: 1;
@@ -328,7 +328,7 @@ body {
 .card h2 {
     margin: 0;
     text-align: center;
-    font: normal normal bold 22px/28px Helvetica;
+    font: normal normal bold 1.375rem Helvetica;
     letter-spacing: 0px;
     color: #354463;
     opacity: 1;
@@ -336,7 +336,7 @@ body {
 
 .card p {
     text-align: center;
-    font: normal normal 300 14px/20px Helvetica;
+    font: normal normal 300 0.875rem Helvetica;
     letter-spacing: -0.14px;
     color: #354463;
     opacity: 1;
@@ -370,7 +370,7 @@ body {
 .card .cardtext button {
     display: block;
     text-align: center;
-    font: normal normal bold 18px/22px Helvetica;
+    font: normal normal bold 1.125rem Helvetica;
     letter-spacing: 0px;
     color: #354463;
     opacity: 1;
@@ -413,7 +413,7 @@ body {
     display: block;
     margin-bottom: 32px;
     text-align: left;
-    font: normal normal bold 22px/28px Helvetica;
+    font: normal normal bold 1.375rem Helvetica;
     letter-spacing: 0px;
     color: #354463;
     opacity: 1;
@@ -441,7 +441,7 @@ body {
     border-radius: 20px;
     background: #354463;
 
-    font: normal normal bold 16px/19px Helvetica;
+    font: normal normal bold 1rem Helvetica;
     letter-spacing: 0px;
     color: #C1F7D5;
     opacity: 1;
@@ -462,7 +462,7 @@ body {
 .textbox1 {
     text-align: left;
     width: 100px;
-    font: normal normal bold 18px/22px Helvetica;
+    font: normal normal bold 1.125rem Helvetica;
     letter-spacing: 0px;
     color: #354463;
     opacity: 1;
@@ -471,7 +471,7 @@ body {
 .textbox2, .textbox3, .textbox4, .box8 a , .box8 p{
     margin: 0;
     text-align: left;
-    font: normal normal 300 14px/24px Helvetica;
+    font: normal normal 300 0.875rem Helvetica;
     letter-spacing: -0.14px;
     color: #354463;
     opacity: 1;
@@ -479,7 +479,7 @@ body {
 
 .textbox5 {
     text-align: right;
-    font: normal normal normal 44px/46px floodstd;
+    font: normal normal normal 2.75rem floodstd;
     letter-spacing: 0px;
     color: #354463;
     opacity: 1;
