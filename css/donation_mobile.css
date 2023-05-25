@@ -1,188 +1,193 @@
-body {
-    margin: 0;
-    height: 100%;
-    width: 100%;
-}
+/* Mobile */
+@media (min-width:320px) and (max-width:599px) {
 
-.heading1 {
-    width: 126px;
-    text-align: center;
-    font: normal normal bold 1.125rem Helvetica;
-    letter-spacing: 0px;
-    color: #354463;
-    opacity: 1;
-    margin: 20px auto 20px auto;
-}
-
-.box1 {
-    width: 100%;
-    height: fit-content;
-    padding-bottom: 32px;
-
-    background: transparent url('../assets/donation/annie-spratt-427340-unsplash.png') 0% 0% no-repeat padding-box;
-    background-size: cover;
-    /* opacity: 0.63; */
-}
-
-@font-face {
-    font-family: floodstd;
-    src: url("../assets/font/FloodStd.otf");
-}
-
-.heading2 {
-    margin: 0;
-    padding: 32px;
-    text-align: center;
-    font-family: floodstd;
-    font-size: 2rem;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-}
-
-form {
-    margin: 0 32px 0 32px;
-    padding: 32px;
-    height: fit-content;
-    width: fit-content;
-    background: #354463 0% 0% no-repeat padding-box;
-    opacity: 1;
-    border-radius: 20px;
-}
-
-label {
-    margin-top: 10px;
-    text-transform: uppercase;
-    text-align: left;
-    font: normal normal normal 0.688rem Helvetica;
-    letter-spacing: 0.44px;
-    color: #FFFFFF;
-    opacity: 1;
-    display: block;
-}
-
-input, select {
-    margin-bottom: 10px;
-    padding: 10px 0 10px 0;
-    border: none;
-    border-bottom: 2px solid #C1F7D5;
-    outline: none;
-    background: transparent;
-
-    text-align: left;
-    font: normal normal normal 0.688rem Helvetica;
-    letter-spacing: 0.44px;
-    color: #FFFFFF;
-    opacity: 1;
-}
-
-:-ms-input-placeholder {
-    font: normal normal 300 1rem Helvetica;
-    letter-spacing: -0.16px;
-    color: #FFFFFF;
-    opacity: 0.2;
-}
-
-form h1 {
-    margin: 0;
-    text-align: left;
-    font: normal normal bold 1.375rem Helvetica;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-}
-
-form button {
-    margin: 32px 0 22px 0;
-    width: 100%;
-    padding: 15px;
-    background-color: #C1F7D5;
-    border: none;
-    border-radius: 100px;
-    opacity: 1;
-    outline: none;
-
-    font: normal normal bold 1rem Helvetica;
-    letter-spacing: 0px;
-    color: #354463;
-}
-
-form a {
-    text-decoration: underline;
-    font: normal normal 300 0.875rem Helvetica;
-    letter-spacing: -0.14px;
-    color: #C1F7D5;
-    opacity: 1;
-}
-
-.fname, .lname, .citydiv, .statediv, .zipdiv, .expdate, .scode {
-    display: inline-block;
-}
-
-.fname, .citydiv, .statediv, #expmonth, .expdate {
-    margin-right: 10px;
-}
-
-#firstname, #lastname {
-    width: 116px;    
-}
-
-#city {
-    width: 114px;
-}
-
-#state, #zip, #expmonth, #expyear, #code {
-    width: 50px;
-}
-
-#street, #email, #credit {
-    width: 100%;
-}
-
-.desc {
-    margin-top: 22px;
-    text-align: left;
-    font: normal normal bold 1.125rem Helvetica;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-}
-
-.box2 {
-    padding: 64px 32px 64px 32px;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.textbox1 {
-    text-align: left;
-    width: 100px;
-    font: normal normal bold 1.125rem Helvetica;
-    letter-spacing: 0px;
-    color: #354463;
-    opacity: 1;
-}
-
-.textbox2, .textbox3, .textbox4, .box2 a {
-    text-align: left;
-    font: normal normal 300 0.875rem Helvetica;
-    letter-spacing: -0.14px;
-    color: #354463;
-    opacity: 1;
-}
-
-.textbox1 , .textbox2, .textbox3, .textbox4 {
-    margin-bottom: 30px;
-}
-
-.textbox5 {
-    /* margin: 0; */
-    text-align: right;
-    font: normal normal normal 2.75rem floodstd;
-    letter-spacing: 0px;
-    color: #354463;
-    opacity: 1;
+    body {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .heading1 {
+        width: 126px;
+        text-align: center;
+        font: normal normal bold 1.125rem Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+        margin: 20px auto 20px auto;
+    }
+    
+    .box1 {
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 32px;
+    
+        background: transparent url('../assets/donation/annie-spratt-427340-unsplash.png') 0% 0% no-repeat padding-box;
+        background-size: cover;
+        /* opacity: 0.63; */
+    }
+    
+    @font-face {
+        font-family: floodstd;
+        src: url("../assets/font/FloodStd.otf");
+    }
+    
+    .heading2 {
+        margin: 0;
+        padding: 32px;
+        text-align: center;
+        font-family: floodstd;
+        font-size: 2rem;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    form {
+        margin: 0 32px 0 32px;
+        padding: 32px;
+        height: fit-content;
+        width: fit-content;
+        background: #354463 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border-radius: 20px;
+    }
+    
+    label {
+        margin-top: 10px;
+        text-transform: uppercase;
+        text-align: left;
+        font: normal normal normal 0.688rem Helvetica;
+        letter-spacing: 0.44px;
+        color: #FFFFFF;
+        opacity: 1;
+        display: block;
+    }
+    
+    input, select {
+        margin-bottom: 10px;
+        padding: 10px 0 10px 0;
+        border: none;
+        border-bottom: 2px solid #C1F7D5;
+        outline: none;
+        background: transparent;
+    
+        text-align: left;
+        font: normal normal normal 0.688rem Helvetica;
+        letter-spacing: 0.44px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    :-ms-input-placeholder {
+        font: normal normal 300 1rem Helvetica;
+        letter-spacing: -0.16px;
+        color: #FFFFFF;
+        opacity: 0.2;
+    }
+    
+    form h1 {
+        margin: 0;
+        text-align: left;
+        font: normal normal bold 1.375rem Helvetica;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    form button {
+        margin: 32px 0 22px 0;
+        width: 100%;
+        padding: 15px;
+        background-color: #C1F7D5;
+        border: none;
+        border-radius: 100px;
+        opacity: 1;
+        outline: none;
+    
+        font: normal normal bold 1rem Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+    }
+    
+    form a {
+        text-decoration: underline;
+        font: normal normal 300 0.875rem Helvetica;
+        letter-spacing: -0.14px;
+        color: #C1F7D5;
+        opacity: 1;
+    }
+    
+    .fname, .lname, .citydiv, .statediv, .zipdiv, .expdate, .scode {
+        display: inline-block;
+    }
+    
+    .fname, .citydiv, .statediv, #expmonth, .expdate {
+        margin-right: 10px;
+    }
+    
+    #firstname, #lastname {
+        width: 116px;    
+    }
+    
+    #city {
+        width: 114px;
+    }
+    
+    #state, #zip, #expmonth, #expyear, #code {
+        width: 50px;
+    }
+    
+    #street, #email, #credit {
+        width: 100%;
+    }
+    
+    .desc {
+        margin-top: 22px;
+        text-align: left;
+        font: normal normal bold 1.125rem Helvetica;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .box2 {
+        padding: 64px 32px 64px 32px;
+    }
+    
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .textbox1 {
+        text-align: left;
+        width: 100px;
+        font: normal normal bold 1.125rem Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+    }
+    
+    .textbox2, .textbox3, .textbox4, .box2 a {
+        text-align: left;
+        font: normal normal 300 0.875rem Helvetica;
+        letter-spacing: -0.14px;
+        color: #354463;
+        opacity: 1;
+    }
+    
+    .textbox1 , .textbox2, .textbox3, .textbox4 {
+        margin-bottom: 30px;
+    }
+    
+    .textbox5 {
+        /* margin: 0; */
+        text-align: right;
+        font: normal normal normal 2.75rem floodstd;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+    }
+    
 }

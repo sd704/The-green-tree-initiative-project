@@ -1,4 +1,215 @@
 /* Desktop */
 @media (min-width:1025px) {
+
+    body {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
     
+    .heading1 {
+        width: 200px;
+        text-align: center;
+        font: normal normal bold 1.75rem Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+        margin: 20px auto 20px auto;
+    }
+    
+    .box1 {
+        width: 100%;
+        height: fit-content;
+        padding: 5% 0 5% 0;
+    
+        background: transparent url('../assets/donation/annie-spratt-427340-unsplash.png') 0% 0% no-repeat padding-box;
+        background-size: cover;
+        
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-content: center;
+        gap: 64px;
+    }
+    
+    @font-face {
+        font-family: floodstd;
+        src: url("../assets/font/FloodStd.otf");
+    }
+    
+    .heading2 {
+        margin: 0;
+        text-align: left;
+        font: normal normal normal 4.5rem floodstd;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+
+        width: 20%;
+    }
+    
+    form {
+        margin: 0;
+        padding: 64px;
+        height: fit-content;
+        width: fit-content;
+        background: #354463 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border-radius: 20px;
+        position: relative;
+    }
+    
+    label {
+        margin: 10px 0 5px 0;
+        text-transform: uppercase;
+        text-align: left;
+        font: normal normal normal 0.875rem Helvetica;
+        letter-spacing: 0.44px;
+        color: #FFFFFF;
+        opacity: 1;
+        display: block;
+    }
+    
+    input, select {
+        margin-bottom: 10px;
+        padding: 10px 0 10px 0;
+        border: none;
+        border-bottom: 2px solid #C1F7D5;
+        outline: none;
+        background: transparent;
+
+        text-align: left;
+        font: normal normal 300 1.25rem Helvetica;
+        letter-spacing: -0.4px;
+        color: #C1F7D5;
+        opacity: 1;
+    }
+    
+    ::placeholder {
+        text-align: left;
+        font: normal normal 300 1.25rem Helvetica;
+        letter-spacing: -0.4px;
+        /* color: #FFFFFF; */
+        color: lightgrey;
+        opacity: 0.2;
+    }
+    
+    form h1 {
+        margin: 0;
+        text-align: left;
+        font: normal normal bold 1.75rem Helvetica;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    form button {
+        padding: 15px;
+        background-color: #C1F7D5;
+        border: none;
+        border-radius: 100px;
+        outline: none;
+    
+        font: normal normal bold 1.375rem Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+
+        position: absolute;
+        right: 64px;
+        bottom: 64px;
+    }
+    
+    form a {
+        text-decoration: underline;
+        font: normal normal 300 1rem Helvetica;
+        letter-spacing: -0.14px;
+        color: #C1F7D5;
+        opacity: 1;
+
+        display: block;
+        margin: 32px 0 22px 0;
+    }
+    
+    .fname, .lname, .citydiv, .statediv, .zipdiv, .expdate, .scode {
+        display: inline-block;
+    }
+    
+    .fname, .citydiv, .statediv, #expmonth, .expdate {
+        margin-right: 10px;
+    }
+    
+    #firstname, #lastname {
+        width: 116px;    
+    }
+    
+    #city {
+        width: 224px;
+    }
+    
+    #state, #zip, #expmonth, #expyear, #code {
+        width: 96px;
+    }
+    
+    #street, #email, #credit {
+        width: 100%;
+    }
+    
+    .desc {
+        margin-top: 22px;
+        margin-bottom: 64px;
+        width: 512px;
+        text-align: left;
+        font: normal normal bold 1.75rem Helvetica;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .box2 {
+        padding: 64px 15% 64px 15%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 64px;
+    }
+    
+    .box2 a , .box2 p{
+        text-align: left;
+        font: normal normal 300 0.875rem Helvetica;
+        text-decoration: none;
+        letter-spacing: -0.14px;
+        color: #354463;
+        opacity: 1;
+    }
+    
+    .textbox1 {
+        text-align: left;
+        width: 160px;
+        font: normal normal bold 1.375rem Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+        margin: 0;
+    }
+    
+    .textbox2 p:first-child, .textbox3 p:first-child, .textbox4 p:first-child {
+        border-bottom: 1px solid #354463;
+        padding-bottom: 5px;
+        margin: 0 0 10px 0;
+    }
+    
+    .textbox5 {
+        text-align: right;
+        font: normal normal normal 2.75rem floodstd;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+        margin: 32px 0 0 0;
+    }
+        
 }
