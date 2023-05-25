@@ -1,4 +1,501 @@
 /* Desktop */
 @media (min-width:1025px) {
+
+    body {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
     
+    @font-face {
+        font-family: floodstd;
+        src: url("../assets/font/FloodStd.otf");
+    }
+    
+    /* header css */
+    
+    header {
+        display: flex;
+        margin: 0;
+        padding: 32px;
+        justify-content: center;
+        /* align-content: center; */
+    }
+    
+    .header {
+        display: flex;
+    }
+    
+    .heading1 p {
+        width: 126px;
+        text-align: left;
+        font: normal normal bold 1.125rem Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+        margin: 0 30vw 0 5vw;
+    }
+    
+    
+    .list1 {
+        margin: auto 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .list1 a {
+        display: inline-block;
+        text-decoration: none;
+        margin-left: 42px;
+        margin-bottom: 5px;
+    
+        text-align: left;
+        font: normal normal 300 0.875rem Helvetica;
+        letter-spacing: -0.14px;
+        color: #354463;
+        opacity: 1;
+    }
+    
+    .donatebutton {
+        height: fit-content;
+        margin: auto 5vw auto 80px;
+    }
+    
+    .donatebutton button {    
+        padding: 10px;
+        width: 160px;
+    
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border: none;
+        outline: none;
+        border-radius: 100px;
+        opacity: 1;
+    
+        font: normal normal bold 1.125rem Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+    }
+    
+    .box1 {
+        background: transparent url('../assets/about-us/annie-spratt-427339-unsplash.png') 0% 0% no-repeat padding-box;
+        background-size: cover;
+        padding: 5% 15% 5% 15%;
+        position: relative;
+    }
+    
+    .box1 h1 {
+        margin: 0;
+        width: 300px;
+
+        text-align: left;
+        font: normal normal normal 4.5rem floodstd;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .box2 {
+        position: absolute;
+        top: 35%;
+        right: 15%;
+        
+        background-color: #FFFFFF;
+        padding: 64px;
+    }
+    
+    .box2 h2 {
+        margin: 0;
+        background-color: #354463;
+        padding: 10px;
+        width: 158px;
+    
+        position: absolute;
+        top: -14px;
+    
+        text-align: center;
+        font: normal normal normal 14px/17px Helvetica;
+        letter-spacing: 0.56px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .box2 p {
+        margin: 0;
+        width: 416px;
+        text-align: left;
+        font: normal normal bold 1.75rem Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+    }
+    
+    .box3 {
+        background-color: #354463;
+        padding: 5% 15% 5% 15%;
+    }
+    
+    .box3 h2 {
+        margin: 0;
+        padding: 10px;
+        background-color: #FFFFFF;
+        width: fit-content;
+        text-align: center;
+        font: normal normal normal 0.875rem Helvetica;
+        letter-spacing: 0.56px;
+        color: #354463;
+        opacity: 1;
+    }
+    
+    .box3 p {
+        text-align: left;
+        font: normal normal bold 2.75rem Helvetica;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .grid1 {
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 64px;
+    }
+    
+    .grid1 h3 {
+        margin: 0;
+        text-align: left;
+        font: normal normal bold 1.75rem Helvetica;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .grid1 p {
+        margin: 10px 0 0 0;
+        width: 140px;
+        text-align: left;
+        font: normal normal 300 0.875rem Helvetica;
+        letter-spacing: -0.14px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .box4 {
+        padding: 5% 15% 5% 15%;
+    }
+    
+    .box4 h3 {
+        background-color: #354463;
+        width: 160px;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        font: normal normal normal 0.875rem Helvetica;
+        letter-spacing: 0.56px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .box4 h2 {
+        text-align: left;
+        margin: 32px 0 32px 0;
+        width: 40%;
+        display: inline-block;
+        font: normal normal bold 2.75rem Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+    }
+    
+    .box4 p {
+        margin: 0 0 0 15%;
+        display: inline-block;
+        width: 40%;
+        text-align: left;
+        font: normal normal 300 1.25rem Helvetica;
+        letter-spacing: -0.4px;
+        color: #354463;
+        opacity: 1;
+    }
+    
+    .grid2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 64px;
+        margin-top: 5%;
+        position: relative;
+    }
+    
+    .grid2 p {
+        margin: 0;
+        padding: 20px;
+        /* width: fit-content; */
+        width: 70%;
+        
+        background: #354463;
+        position: relative;
+        top: -30px;
+        left: 40px;
+    
+        text-align: left;
+        font: normal normal 300 1rem Helvetica;
+        letter-spacing: -0.14px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .box5 {
+        background: transparent url('../assets/about-us/Impact Background.png') 0% 0% no-repeat padding-box;
+        background-size: cover;
+        padding: 5% 15% 5% 15%;
+    }
+    
+    .box5 h3 {
+        text-align: center;
+        font: normal normal normal 0.875rem Helvetica;
+        letter-spacing: 0.56px;
+        color: #354463;
+        opacity: 1;
+    
+        background-color: #FFFFFF;
+        padding: 10px;
+        width: 160px;
+        margin: 0 auto;
+    }
+    
+    .box5 h2 {
+        margin: 32px auto 0 auto;
+        width: 60%;
+        text-align: center;
+        font: normal normal bold 2.75rem Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+    }
+    
+    .box5 .gridx {
+        margin-top: 64px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 64px;
+    }
+
+    .box5 h1 {
+        margin: 0;
+        text-align: center;
+        font: normal normal normal 4.5rem floodstd;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+    }
+    
+    .box5 p {
+        text-align: center;
+        margin: 0;
+        font: normal normal bold 1.75rem Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+    }
+    
+    .box6 {
+        display: none;
+    }
+
+    .boxx {
+        padding: 5% 15% 5% 15%;
+        background: #354463;
+        position: relative;
+    }
+
+    .boxx h1 {
+        margin: 0 0 64px 0;
+        width: 70%;
+        text-align: left;
+        font: normal normal normal 4.5rem floodstd;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .arrow2 {
+        width: 64px;
+        height: 64px;
+        background: #C1F7D5;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: absolute;
+        top: 10%;
+        right: 15%;
+    }
+
+    .arrow2 img {
+        width: 33px;
+        height: 22px;
+    }
+
+    .cardgrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 32px;
+    }
+
+    .carddiv h3 {
+        background: #FFFFFF;
+        padding: 10px;
+        width: 160px;
+        margin: 0;
+        text-align: center;
+        font: normal normal normal 0.875rem Helvetica;
+        letter-spacing: 0.56px;
+        color: #354463;
+        opacity: 1;
+        position: relative;
+        left: 50px;
+        bottom: -15px;
+    }
+
+    .innercard {
+        background: #FFFFFF;
+    }
+
+    .innercard h2 {
+        margin: 0;
+        padding: 32px;
+        text-align: left;
+        font: normal normal bold 1.75rem Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+    }
+
+    .innercard p {
+        margin: 0;
+        padding: 0 32px 0 32px;
+        text-align: left;
+        font: normal normal normal 1rem Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+    }
+
+    .innercard button {
+        margin: 32px;
+        width: 160px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        background: #C1F7D5;
+
+        text-align: center;
+        font: normal normal bold 1.125rem Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+    }
+
+    .box7 {
+        background-color: #C1F7D5;
+        padding: 64px 15% 64px 15%;
+    }
+    
+    .box7 form {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+    
+    .box7 form label {
+        display: block;
+        text-align: left;
+        font: normal normal bold 1.75rem Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+    }
+    
+    .box7 form input {
+        display: inline-block;
+        border: none;
+        outline: none;
+        background: #FFFFFF;
+        padding: 0 15px 0 15px;
+        border-radius: 20px;
+    
+        height: 48px;
+        margin: auto 0;
+    }
+    
+    .box7 form input::placeholder {
+        color: #354463;
+    }
+    
+    .box7 form button {
+        display: inline-block;
+        border: none;
+        outline: none;
+        padding: 8px 15px 8px 15px;
+        border-radius: 20px;
+        background: #354463;
+    
+        font: normal normal bold 1rem Helvetica;
+        letter-spacing: 0px;
+        color: #C1F7D5;
+        opacity: 1;
+        margin: auto 0 auto 32px;
+    
+        height: 48px;
+    }
+    
+    .box8 {
+        padding: 64px 15% 64px 15%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .grid3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 64px;
+    }
+    
+    .box8 a , .box8 p{
+        text-align: left;
+        font: normal normal 300 0.875rem Helvetica;
+        text-decoration: none;
+        letter-spacing: -0.14px;
+        color: #354463;
+        opacity: 1;
+    }
+    
+    .textbox1 {
+        text-align: left;
+        width: 160px;
+        font: normal normal bold 1.375rem Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+        margin: 0;
+    }
+    
+    .textbox2 p:first-child, .textbox3 p:first-child, .textbox4 p:first-child {
+        border-bottom: 1px solid #354463;
+        padding-bottom: 5px;
+        margin: 0 0 10px 0;
+    }
+    
+    .textbox5 {
+        text-align: right;
+        font: normal normal normal 2.75rem floodstd;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+        margin: 32px 0 0 0;
+    }
+
 }
