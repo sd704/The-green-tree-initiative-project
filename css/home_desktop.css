@@ -1,0 +1,627 @@
+/* Desktop */
+@media (min-width:1025px) {
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: floodstd;
+    src: url("../assets/font/FloodStd.otf");
+}
+
+/* header css */
+
+header {
+    display: flex;
+    margin: 0;
+    padding: 32px;
+    justify-content: center;
+    /* align-content: center; */
+}
+
+.header {
+    display: flex;
+}
+
+.heading1 p {
+    width: 126px;
+    text-align: left;
+    font: normal normal bold 1.125rem Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+    margin: 0 30vw 0 5vw;
+}
+
+
+.list1 {
+    margin: auto 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.list1 a {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 42px;
+    margin-bottom: 5px;
+
+    text-align: left;
+    font: normal normal 300 0.875rem Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+
+.donatebutton {
+    height: fit-content;
+    margin: auto 5vw auto 80px;
+}
+
+.donatebutton button {    
+    padding: 10px;
+    width: 160px;
+
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    opacity: 1;
+
+    font: normal normal bold 1.125rem Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+}
+
+.box1 {
+    background: transparent url('../assets/home/annie-spratt-135307-unsplash.png') 0% 0% no-repeat padding-box;
+    background-size: cover;
+
+    position: relative;
+    height: 600px;
+    padding: 0 15% 0 15%;
+}
+
+.box1 h1 {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    right: 30%;
+
+    width: 296px;
+    text-align: left;
+    font: normal normal normal 4rem floodstd;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.box2 {
+    position: relative;
+    top: 20%;
+    bottom: 0;
+    background-color: #FFFFFF;
+    padding: 64px 64px 64px 64px;
+
+    width: 30%;
+    height: 45%;
+}
+
+.box2 h2 {
+    margin: 0 auto;
+    background-color: #354463;
+    padding: 10px;
+    width: 158px;
+
+    position: absolute;
+    top: -20px;
+    left: -40%;
+    right: 0;
+
+
+    text-align: center;
+    font: normal normal normal 0.875rem Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.box2 p {
+    margin: 0;
+
+    text-align: left;
+    font: normal normal bold 2.75rem Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+
+.box2 a {
+    display: block;
+    margin: 32px 0 0 0;
+    text-align: left;
+    font: normal normal normal 0.875rem Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+
+.box3 {
+    background: #C1F7D5;
+}
+
+.box3 h3 {
+    background: #354463;
+    width: 160px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font: normal normal normal 0.875rem Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+
+    position: relative;
+    top: -20px;
+}
+
+.grid1 {
+    padding: 32px 15% 64px 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10%;
+}
+
+.grid1 h2 {
+    margin: 0;
+    text-align: left;
+    font: normal normal bold 1.75rem Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+
+.grid1 p {
+    margin: 5px 0 0 0;
+    text-align: left;
+    font: normal normal 300 1rem Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+
+.box4 {
+    padding: 5% 15% 5% 15%;
+    background: #354463;
+}
+
+.box4 h3 {
+    background: #FFFFFF;
+    width: 160px;
+    padding: 10px;
+    text-align: center;
+    font: normal normal normal 0.875rem Helvetica;
+    letter-spacing: 0.56px;
+    color: #354463;
+    opacity: 1;
+}
+
+.box4 h2 {
+    text-align: left;
+    font: normal normal bold 2.75rem Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: 70px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 64px;
+}
+
+.grid2 div {
+    background: #FFFFFF;
+    padding: 32px 35px 32px 35px;
+    position: relative;
+    height: fit-content;
+}
+
+.grid2 div img {
+    width: 100%;
+    height: 224px;
+    position: absolute;
+    top: -30px;
+}
+
+.grid2 div h2 {
+    margin: 180px 50px 0 0;
+    text-align: left;
+    font: normal normal bold 1.75rem Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+
+.grid2 div p {
+    text-align: left;
+    font: normal normal 300 1rem Helvetica;
+    letter-spacing: -0.16px;
+    color: #354463;
+    opacity: 1;
+    margin: 20px 0 0 0;
+}
+
+.grid2 div button {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    display: block;
+    margin: 32px 0 0 0;
+    width: 152px;
+    padding: 10px;
+    background: #C1F7D5;
+
+    font: normal normal bold 1rem Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+
+.box5 {
+    padding: 5% 15% 5% 15%;
+    background: url("../assets/home/did-you-know-background.png");
+    background-size: cover;
+    position: relative;
+    height: 95vh;
+}
+
+.box5 h1 {
+    text-align: left;
+    font: normal normal normal 4rem floodstd;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 0;
+    width: 30%;
+}
+
+.box5 button {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: #C1F7D5;
+    padding: 10px;
+    margin-top: 28px;
+
+    font: normal normal bold 1rem Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+
+.box5 h3 {
+    text-align: center;
+    font: normal normal normal 0.875rem Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+    background: #354463;
+    padding: 10px;
+    width: 160px;
+    margin: 50px auto 0 auto;
+
+    position: absolute;
+    right: 30%;
+    top: 3%;
+    z-index: 1;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    position: absolute;
+    top: 9%;
+    right: 16%;
+}
+
+.grid3 div {
+    background: #FFFFFF;
+    padding: 10%;
+    width: 85%;
+    display: grid;
+
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: repeat(2, 50px);
+    gap: 10%;
+}
+
+.grid3 div h2 {
+    margin: 0;
+    text-align: left;
+    font: normal normal bold 2.75rem Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+
+.grid3 div div {
+    background: #C1F7D5;
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.twitter {
+    width: 16px;
+    height: 13px;
+}
+
+.facebook {
+    width: 8px;
+    height: 16px;
+}
+
+.grid3 div p {
+    font-family: Helvetica;
+    color: #354463;
+    margin: 0;
+}
+
+.box6 {
+    padding: 64px 15% 64px 15%;
+    height: 50vh;
+    position: relative;
+}
+
+.box6 h3 {
+    background: #354463;
+    padding: 10px;
+    width: 160px;
+    margin: 0 auto;
+    position: absolute;
+    top: 8%;
+    right: 30%;
+
+    text-align: center;
+    font: normal normal normal 0.875rem Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.box6 img {
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    right: 15%;
+    z-index: -1;
+}
+
+.box6 div {
+    background: #354463;
+    padding: 64px;
+    margin: 30px 0 0 0;
+    width: 50%;
+
+    position: relative;
+    top: 15%;
+
+}
+
+.box6 div h2 {
+    text-align: left;
+    font: normal normal bold 1.75rem Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 0;
+}
+
+.box6 div p {
+    text-align: left;
+    font: normal normal normal 0.688rem Helvetica;
+    letter-spacing: 0.44px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 32px 0 0 0;
+}
+
+.box6 button {    
+    
+    width: 156px;
+    border: none;
+    border-radius: 20px;
+    background: #C1F7D5;
+    padding: 10px;
+    display: block;
+    margin: 32px 0 0 0;
+
+    font: normal normal bold 1.125rem Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+
+    position: relative;
+    bottom: -15%;
+}
+
+.box7 {
+    display: none;
+}
+
+.box10 {
+    padding: 5% 15% 8% 15%;
+    background: #354463;
+}
+
+.box10 .grid10 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 64px;
+}
+
+.box10 h1 {
+    text-align: left;
+    font: normal normal normal 4.5rem floodstd;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 70%;
+}
+
+.box10 h3 {
+    background: #FFFFFF;
+    padding: 10px;
+    width: 160px;
+    margin: 0 0 32px 0;
+    text-align: center;
+    font: normal normal normal 0.875rem Helvetica;
+    letter-spacing: 0.56px;
+    color: #354463;
+    opacity: 1;
+}
+
+.box10 h2 {
+    text-align: left;
+    font: normal normal bold 2.75rem Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 0 200px 32px 0;
+}
+
+.box10 p {
+    font-family: Helvetica;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    text-align: left;
+    margin: 0 100px 32px 0;
+}
+
+.box10 button {
+    font: normal normal bold 1.125rem Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+
+
+    width: 156px;
+    background: #C1F7D5;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    display: block;
+    margin: 0;
+}
+
+.box8 {
+    background-color: #C1F7D5;
+    padding: 64px 15% 64px 15%;
+}
+
+.box8 form {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.box8 form label {
+    display: block;
+    text-align: left;
+    font: normal normal bold 1.75rem Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+
+.box8 form input {
+    display: inline-block;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    padding: 0 15px 0 15px;
+    border-radius: 20px;
+
+    height: 48px;
+    margin: auto 0;
+}
+
+.box8 form input::placeholder {
+    color: #354463;
+}
+
+.box8 form button {
+    display: inline-block;
+    border: none;
+    outline: none;
+    padding: 8px 15px 8px 15px;
+    border-radius: 20px;
+    background: #354463;
+
+    font: normal normal bold 1rem Helvetica;
+    letter-spacing: 0px;
+    color: #C1F7D5;
+    opacity: 1;
+    margin: auto 0 auto 32px;
+
+    height: 48px;
+}
+
+.box9 {
+    padding: 64px 15% 64px 15%;
+    display: flex;
+    align-items: center;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 64px;
+}
+
+.box9 a , .box9 p{
+    text-align: left;
+    font: normal normal 300 0.875rem Helvetica;
+    text-decoration: none;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+
+.textbox1 {
+    text-align: left;
+    width: 160px;
+    font: normal normal bold 1.375rem Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+    margin: 0;
+}
+
+.textbox2 p:first-child, .textbox3 p:first-child, .textbox4 p:first-child {
+    border-bottom: 1px solid #354463;
+    padding-bottom: 5px;
+    margin: 0 0 10px 0;
+}
+
+.textbox5 {
+    text-align: right;
+    font: normal normal normal 2.75rem floodstd;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+    margin: 32px 0 0 0;
+}
+
+}
