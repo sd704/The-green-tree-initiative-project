@@ -1,9 +1,35 @@
+<div align="center">
+
 # 🌿 The Green Tree Initiative
 
 A **pixel‑perfect UI website** built from scratch using **HTML** and **vanilla CSS**.  
 The site is designed to promote a clean, nature‑inspired aesthetic emphasizing sustainability, harmony, and modern minimalism.
 
-[👉 Live Website](https://the-green-tree-initiative.netlify.app/)
+[🌐 Live Demo](https://the-green-tree-initiative.netlify.app/)
+
+</div>
+
+---
+
+### 💻 Desktop View
+<div align="center">
+
+| Home Page | About Page | Donation |
+|:---:|:---:|:---:|
+| ![Trailer](screenshots/pc_home.png) | ![More Info](screenshots/pc_about.png) | ![Categories](screenshots/pc_donate.png) |
+
+</div>
+
+---
+
+### 📱 Mobile View
+<div align="center">
+
+| Home Page | About Page | Donation |
+|:---:|:---:|:---:|
+| ![Trailer](screenshots/mobile_home.png) | ![More Info](screenshots/mobile_about.png) | ![Categories](screenshots/mobile_donate.png) |
+
+</div>
 
 ---
 
